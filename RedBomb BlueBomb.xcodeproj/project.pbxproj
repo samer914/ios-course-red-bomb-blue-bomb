@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4151AEF1D0F7D28000EB819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4151AEE1D0F7D28000EB819 /* AppDelegate.swift */; };
+		F4151AF11D0F7D28000EB819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4151AF01D0F7D28000EB819 /* ViewController.swift */; };
+		F4151AF41D0F7D28000EB819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4151AF21D0F7D28000EB819 /* Main.storyboard */; };
+		F4151AF61D0F7D28000EB819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4151AF51D0F7D28000EB819 /* Assets.xcassets */; };
+		F4151AF91D0F7D28000EB819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4151AF71D0F7D28000EB819 /* LaunchScreen.storyboard */; };
+		F4151B041D0F7D28000EB819 /* RedBomb_BlueBombTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4151B031D0F7D28000EB819 /* RedBomb_BlueBombTests.swift */; };
+		F4151B0F1D0F7D28000EB819 /* RedBomb_BlueBombUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4151B0E1D0F7D28000EB819 /* RedBomb_BlueBombUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4151B001D0F7D28000EB819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4151AE31D0F7D28000EB819 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4151AEA1D0F7D28000EB819;
+			remoteInfo = "RedBomb BlueBomb";
+		};
+		F4151B0B1D0F7D28000EB819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4151AE31D0F7D28000EB819 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4151AEA1D0F7D28000EB819;
+			remoteInfo = "RedBomb BlueBomb";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4151AEB1D0F7D28000EB819 /* RedBomb BlueBomb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RedBomb BlueBomb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4151AEE1D0F7D28000EB819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4151AF01D0F7D28000EB819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4151AF31D0F7D28000EB819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4151AF51D0F7D28000EB819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4151AF81D0F7D28000EB819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4151AFA1D0F7D28000EB819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4151AFF1D0F7D28000EB819 /* RedBomb BlueBombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RedBomb BlueBombTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4151B031D0F7D28000EB819 /* RedBomb_BlueBombTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBomb_BlueBombTests.swift; sourceTree = "<group>"; };
+		F4151B051D0F7D28000EB819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4151B0A1D0F7D28000EB819 /* RedBomb BlueBombUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RedBomb BlueBombUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4151B0E1D0F7D28000EB819 /* RedBomb_BlueBombUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBomb_BlueBombUITests.swift; sourceTree = "<group>"; };
+		F4151B101D0F7D28000EB819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4151AE81D0F7D28000EB819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4151AFC1D0F7D28000EB819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4151B071D0F7D28000EB819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4151AE21D0F7D28000EB819 = {
+			isa = PBXGroup;
+			children = (
+				F4151AED1D0F7D28000EB819 /* RedBomb BlueBomb */,
+				F4151B021D0F7D28000EB819 /* RedBomb BlueBombTests */,
+				F4151B0D1D0F7D28000EB819 /* RedBomb BlueBombUITests */,
+				F4151AEC1D0F7D28000EB819 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4151AEC1D0F7D28000EB819 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4151AEB1D0F7D28000EB819 /* RedBomb BlueBomb.app */,
+				F4151AFF1D0F7D28000EB819 /* RedBomb BlueBombTests.xctest */,
+				F4151B0A1D0F7D28000EB819 /* RedBomb BlueBombUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4151AED1D0F7D28000EB819 /* RedBomb BlueBomb */ = {
+			isa = PBXGroup;
+			children = (
+				F4151AEE1D0F7D28000EB819 /* AppDelegate.swift */,
+				F4151AF01D0F7D28000EB819 /* ViewController.swift */,
+				F4151AF21D0F7D28000EB819 /* Main.storyboard */,
+				F4151AF51D0F7D28000EB819 /* Assets.xcassets */,
+				F4151AF71D0F7D28000EB819 /* LaunchScreen.storyboard */,
+				F4151AFA1D0F7D28000EB819 /* Info.plist */,
+			);
+			path = "RedBomb BlueBomb";
+			sourceTree = "<group>";
+		};
+		F4151B021D0F7D28000EB819 /* RedBomb BlueBombTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4151B031D0F7D28000EB819 /* RedBomb_BlueBombTests.swift */,
+				F4151B051D0F7D28000EB819 /* Info.plist */,
+			);
+			path = "RedBomb BlueBombTests";
+			sourceTree = "<group>";
+		};
+		F4151B0D1D0F7D28000EB819 /* RedBomb BlueBombUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4151B0E1D0F7D28000EB819 /* RedBomb_BlueBombUITests.swift */,
+				F4151B101D0F7D28000EB819 /* Info.plist */,
+			);
+			path = "RedBomb BlueBombUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4151AEA1D0F7D28000EB819 /* RedBomb BlueBomb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4151B131D0F7D28000EB819 /* Build configuration list for PBXNativeTarget "RedBomb BlueBomb" */;
+			buildPhases = (
+				F4151AE71D0F7D28000EB819 /* Sources */,
+				F4151AE81D0F7D28000EB819 /* Frameworks */,
+				F4151AE91D0F7D28000EB819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RedBomb BlueBomb";
+			productName = "RedBomb BlueBomb";
+			productReference = F4151AEB1D0F7D28000EB819 /* RedBomb BlueBomb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4151AFE1D0F7D28000EB819 /* RedBomb BlueBombTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4151B161D0F7D28000EB819 /* Build configuration list for PBXNativeTarget "RedBomb BlueBombTests" */;
+			buildPhases = (
+				F4151AFB1D0F7D28000EB819 /* Sources */,
+				F4151AFC1D0F7D28000EB819 /* Frameworks */,
+				F4151AFD1D0F7D28000EB819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4151B011D0F7D28000EB819 /* PBXTargetDependency */,
+			);
+			name = "RedBomb BlueBombTests";
+			productName = "RedBomb BlueBombTests";
+			productReference = F4151AFF1D0F7D28000EB819 /* RedBomb BlueBombTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4151B091D0F7D28000EB819 /* RedBomb BlueBombUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4151B191D0F7D28000EB819 /* Build configuration list for PBXNativeTarget "RedBomb BlueBombUITests" */;
+			buildPhases = (
+				F4151B061D0F7D28000EB819 /* Sources */,
+				F4151B071D0F7D28000EB819 /* Frameworks */,
+				F4151B081D0F7D28000EB819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4151B0C1D0F7D28000EB819 /* PBXTargetDependency */,
+			);
+			name = "RedBomb BlueBombUITests";
+			productName = "RedBomb BlueBombUITests";
+			productReference = F4151B0A1D0F7D28000EB819 /* RedBomb BlueBombUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4151AE31D0F7D28000EB819 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Samer Mujibuddin";
+				TargetAttributes = {
+					F4151AEA1D0F7D28000EB819 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F4151AFE1D0F7D28000EB819 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F4151AEA1D0F7D28000EB819;
+					};
+					F4151B091D0F7D28000EB819 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F4151AEA1D0F7D28000EB819;
+					};
+				};
+			};
+			buildConfigurationList = F4151AE61D0F7D28000EB819 /* Build configuration list for PBXProject "RedBomb BlueBomb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4151AE21D0F7D28000EB819;
+			productRefGroup = F4151AEC1D0F7D28000EB819 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4151AEA1D0F7D28000EB819 /* RedBomb BlueBomb */,
+				F4151AFE1D0F7D28000EB819 /* RedBomb BlueBombTests */,
+				F4151B091D0F7D28000EB819 /* RedBomb BlueBombUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4151AE91D0F7D28000EB819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4151AF91D0F7D28000EB819 /* LaunchScreen.storyboard in Resources */,
+				F4151AF61D0F7D28000EB819 /* Assets.xcassets in Resources */,
+				F4151AF41D0F7D28000EB819 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4151AFD1D0F7D28000EB819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4151B081D0F7D28000EB819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4151AE71D0F7D28000EB819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4151AF11D0F7D28000EB819 /* ViewController.swift in Sources */,
+				F4151AEF1D0F7D28000EB819 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4151AFB1D0F7D28000EB819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4151B041D0F7D28000EB819 /* RedBomb_BlueBombTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4151B061D0F7D28000EB819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4151B0F1D0F7D28000EB819 /* RedBomb_BlueBombUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4151B011D0F7D28000EB819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4151AEA1D0F7D28000EB819 /* RedBomb BlueBomb */;
+			targetProxy = F4151B001D0F7D28000EB819 /* PBXContainerItemProxy */;
+		};
+		F4151B0C1D0F7D28000EB819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4151AEA1D0F7D28000EB819 /* RedBomb BlueBomb */;
+			targetProxy = F4151B0B1D0F7D28000EB819 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4151AF21D0F7D28000EB819 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4151AF31D0F7D28000EB819 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4151AF71D0F7D28000EB819 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4151AF81D0F7D28000EB819 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4151B111D0F7D28000EB819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4151B121D0F7D28000EB819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4151B141D0F7D28000EB819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RedBomb BlueBomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.RedBomb-BlueBomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4151B151D0F7D28000EB819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RedBomb BlueBomb/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.RedBomb-BlueBomb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4151B171D0F7D28000EB819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RedBomb BlueBombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.RedBomb-BlueBombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBomb BlueBomb.app/RedBomb BlueBomb";
+			};
+			name = Debug;
+		};
+		F4151B181D0F7D28000EB819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RedBomb BlueBombTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.RedBomb-BlueBombTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBomb BlueBomb.app/RedBomb BlueBomb";
+			};
+			name = Release;
+		};
+		F4151B1A1D0F7D28000EB819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RedBomb BlueBombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.RedBomb-BlueBombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RedBomb BlueBomb";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4151B1B1D0F7D28000EB819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RedBomb BlueBombUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.RedBomb-BlueBombUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RedBomb BlueBomb";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4151AE61D0F7D28000EB819 /* Build configuration list for PBXProject "RedBomb BlueBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4151B111D0F7D28000EB819 /* Debug */,
+				F4151B121D0F7D28000EB819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4151B131D0F7D28000EB819 /* Build configuration list for PBXNativeTarget "RedBomb BlueBomb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4151B141D0F7D28000EB819 /* Debug */,
+				F4151B151D0F7D28000EB819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4151B161D0F7D28000EB819 /* Build configuration list for PBXNativeTarget "RedBomb BlueBombTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4151B171D0F7D28000EB819 /* Debug */,
+				F4151B181D0F7D28000EB819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4151B191D0F7D28000EB819 /* Build configuration list for PBXNativeTarget "RedBomb BlueBombUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4151B1A1D0F7D28000EB819 /* Debug */,
+				F4151B1B1D0F7D28000EB819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4151AE31D0F7D28000EB819 /* Project object */;
+}
